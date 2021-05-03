@@ -14,7 +14,13 @@ public class CowTimer {
 	 * 1. Make a constructor for the CowTimer class that initializes the minutes
 	 * variable
 	 */
-
+CowTimer(int minutes){
+minutes = 5;
+	for(int i = minutes;i > 0; i--) {
+		System.out.println(minutes);
+		Thread.sleep(int milliseconds = 300,000);
+	}
+}
 	/* 4. Complete the main method of the CowTimerRunner class */
 
 	private int minutes;
